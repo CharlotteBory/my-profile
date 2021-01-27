@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+}
+
+body {
+  color: #0F5157;
+  background-color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  color: #FF7361;
+  font-family: DM Serif Display, Serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Open Sans, sans-serif;
+  font-weight: 100;
+  color: #FFA496;
+}
+
+form {
+  flex-direction: column;
+  display: flex;
+}
+
+input {
+  margin: 5px 0;
+}
+
+ul {
+  display: flex;
+}
+
+ul .horizontal {
+  display: flex;
+  margin: 10px 10px;
+}
+
+li {
+  text-align: right;
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0 15px;
+}
+
+#main-button {
+  color: #FFF;
+  background-color: #0F5157;
+  border-radius: 16.5px;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+#main-cta {
+  margin-top: 30px;
+}
+
+#main-button:hover {
+  background-color: #99C7C9;
+  margin: 10px auto;
+}
+
+#socials {
+  display: block;
+  margin-top: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 185px;
+}
+
+.center-content {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-actions {
+  font-size: 0.9em;
+  display:block;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+
+.spacer {
+  height : 3em;
+}
+
+a {
+  color: #0F5157;
+}
+
+button a, html input[type=button] {
+  font-weight: 700;
+  color: #FF7361;
+}
+
+a:hover {
+  font-weight: 700;
+  color: #FFA496;
+}
+
+a:focus {
+  font-weight: 700;
+  color: #FFA496;
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #FFEBE6; }
+.My-Color-Theme-2-hex { color: #FF7361; }
+.My-Color-Theme-3-hex { color: #FFA496; }
+.My-Color-Theme-4-hex { color: #0F5157; }
+.My-Color-Theme-5-hex { color: #99C7C9; }
+
